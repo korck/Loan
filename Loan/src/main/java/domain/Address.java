@@ -2,9 +2,9 @@ package domain;
 
 public class Address {
 	
+	private String street;
 	private String city;
 	private String zipCode;
-	private String steet;
 	private String houseNumber;
 	private String localNumber;
 	private String phoneNumber;
@@ -20,12 +20,6 @@ public class Address {
 	}
 	public void setZipCode(String zipCode) {
 		this.zipCode = zipCode;
-	}
-	public String getSteet() {
-		return steet;
-	}
-	public void setSteet(String steet) {
-		this.steet = steet;
 	}
 	public String getHouseNumber() {
 		return houseNumber;
@@ -44,6 +38,12 @@ public class Address {
 	}
 	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
+	}
+	public String getStreet() {
+		return street;
+	}
+	public void setStreet(String street) {
+		this.street = street;
 	}
 	
 	
